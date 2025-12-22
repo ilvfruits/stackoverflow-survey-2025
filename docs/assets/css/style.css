@@ -1,0 +1,39 @@
+
+---
+
+# Step 8: Simple CSS (`assets/css/style.css`)
+
+```css
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fafafa;
+  color: #333;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007acc;
+}
+
+.post h1 {
+  margin-bottom: 5px;
+}
+
+.meta {
+  color: #777;
+  font-size: 0.9em;
+}
+
+code {
+  background: #f3f3f3;
+  padding: 2px 4px;
+}
