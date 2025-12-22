@@ -1,0 +1,5 @@
+title: "Stack Overflow Survey Analysis"
+description: "Data analysis & ML insights from developer survey data"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
