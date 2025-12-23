@@ -11,3 +11,5 @@ This repository contains:
 - `data/` — raw and processed datasets
 - `notebooks/` — RF model to predict developer salary, exploratory analysis of language trends
 - `docs/` — published reports
+- `models/` - modeling pipeline files
+- `report/` - data analysis results and figures
