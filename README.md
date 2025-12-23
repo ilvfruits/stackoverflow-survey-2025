@@ -1,15 +1,14 @@
-# Stack Overflow Developer Survey Analysis
+# 2025 Stack Overflow Developer Survey Analysis
 
 This repository contains:
-- Raw and processed survey data
+- Raw and processed survey data (Note: raw data is too large and can be downloaded from https://survey.stackoverflow.co/)
 - Exploratory data analysis (Jupyter)
 - Machine learning models
 - Public-facing reports via GitHub Pages
-
-🌐 Blog: https://yourusername.github.io/stackoverflow-survey-analysis/
+🌐 Links://ilvfruits.github.io/stackoverflow-survey-2025/
 
 ## Structure
-- `data/` — raw and cleaned datasets
-- `notebooks/` — EDA and experiments
-- `src/` — reusable ML code
+- `data/` — raw and processed datasets
+- `notebooks/` — exploratory of AI and language trends, RF model to predict developer salary
+- `src/` — reusable python codes
 - `docs/` — published reports
