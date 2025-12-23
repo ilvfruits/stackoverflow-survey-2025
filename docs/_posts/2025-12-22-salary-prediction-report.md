@@ -79,19 +79,19 @@ Interpretation:
 ### Feature Analysis
 
 ### Salary vs. Experience
-![Salary vs Experience]({{site.baseurl}}/docs/assets/images/salary_vs_experience.png)
+![Salary vs Experience]({{site.baseurl}}/assets/images/salary_vs_experience.png)
 
 ### Salary by Role
-![Salary by Role](/docs/assets/images/salary_by_role.png)
+![Salary by Role](/assets/images/salary_by_role.png)
 
 ### Salary by Country
-![Salary by Country](/docs/assets/images/salary_by_country.png)
+![Salary by Country](/assets/images/salary_by_country.png)
 
 ### Model Predictions
-![Predicted vs Actual Salary](/docs/assets/images/predicted_vs_true.png)
+![Predicted vs Actual Salary](/assets/images/predicted_vs_true.png)
 
 ### Feature Importance
-![Feature Importance](/docs/assets/images/feature_importance.png)
+![Feature Importance](/assets/images/feature_importance.png)
 
 The model captures general salary trends but struggles with
 high-income outliers, which is expected given the survey nature
