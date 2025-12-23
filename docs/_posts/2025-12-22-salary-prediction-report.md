@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Predicting Developer Salary Using the Stack Overflow Survey"
+title: "Predicting Developer Salary Using the 2025 Stack Overflow Survey"
 tags: [data-analysis, machine-learning, stackoverflow]
 ---
 
@@ -16,7 +16,7 @@ rather than production-grade prediction.
 
 ## Dataset
 
-- Source: Stack Overflow Developer Survey (ODbL license)
+- Source: 2025 Stack Overflow Developer Survey (ODbL license)
 - Respondents: ~80,000 developers worldwide
 - Data type: Self-reported survey responses
 
@@ -39,7 +39,7 @@ Key cleaning steps:
 
 - Removed missing or extreme salary values
 - Converted years of experience to numeric
-- Simplified multi-select fields by selecting the primary response
+- Simplified multi-select fields (primary role, primary language) by selecting the first response
 - Dropped incomplete records after feature selection
 
 These choices intentionally trade completeness for **simplicity and explainability**.
@@ -54,22 +54,17 @@ We trained a **Random Forest Regressor** using:
 - 80/20 train-test split
 - No hyperparameter tuning (baseline model)
 
-Why Random Forest?
-- Handles non-linear relationships well
-- Robust to mixed feature types
-- Strong baseline for tabular survey data
-
 ---
 
 ## Results
 
 ### Model performance
 
-- **Mean Absolute Error (MAE):** $34,984
-- **R² Score:** 0.44
+- **Mean Absolute Error (MAE):** ~$34,984
+- **R² Score:** ~0.44
 
 Interpretation:
-- Predictions are often within $35k of reported salary
+- Predictions are often within ~$35k of reported salary
 - Roughly half of salary variance is explained by the model
 
 ---
@@ -87,6 +82,12 @@ Interpretation:
 ### Salary by Country
 ![Salary by Country]({{site.baseurl}}/assets/images/salary_by_country.png)
 
+### Salary by Education
+![Salary by Education]({{site.baseurl}}/assets/images/salary_by_education.png)
+
+### Salary by Language
+![Salary by Language]({{site.baseurl}}/assets/images/salary_by_language.png)
+
 ### Model Predictions
 ![Predicted vs Actual Salary]({{site.baseurl}}/assets/images/predicted_vs_true.png)
 
@@ -101,39 +102,15 @@ of the data.
 
 ## Key Takeaways
 
-- Years of experience is the strongest predictor
-- Geography introduces large salary variance
-- Role and language add signal, but less than experience
-- Education has limited incremental impact
+- Country of United States is the strongest factor
+- Years of professional experience is the second strongest factor
+- Other factors have marginal influence
 
 ---
 
 ## Limitations
 
-- Self-reported data
-- No company size or industry normalization
-- Multi-select responses simplified
-- Not suitable for individual salary negotiation
+- The data is self-reported and may not be accurate
+- Model prediction power is limited (R²=0.44)
+- Many factors are ignored to simplify the model for demo purpose
 
----
-
-## Conclusion
-
-This project demonstrates an **end-to-end ML workflow** using real-world survey data:
-
-- Data cleaning
-- Feature engineering
-- Model training
-- Interpretation and communication
-
-The goal is insight and learning—not precise salary prediction.
-
----
-
-## Code & Reproducibility
-
-All code, notebooks, and raw data are available in the same repository:
-
-- Jupyter notebooks for analysis
-- Python scripts for reusable components
-- GitHub Pages for public reporting
