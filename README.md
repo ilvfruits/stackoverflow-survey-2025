@@ -5,7 +5,7 @@ This repository contains:
 - Exploratory data analysis (Jupyter)
 - Machine learning models
 - Public-facing reports via GitHub Pages
-🌐 Links://ilvfruits.github.io/stackoverflow-survey-2025/
+🌐 https://ilvfruits.github.io/stackoverflow-survey-2025/
 
 ## Structure
 - `data/` — raw and processed datasets
