@@ -2,4 +2,5 @@ title: "Stack Overflow Survey Analysis"
 description: "Data analysis & ML insights from developer survey data"
 markdown: kramdown
 highlighter: rouge
+baseurl: "/stackoverflow-survey-2025"
 permalink: /:year/:month/:day/:title/
