@@ -10,5 +10,4 @@ This repository contains:
 ## Structure
 - `data/` — raw and processed datasets
 - `notebooks/` — RF model to predict developer salary, exploratory analysis of language trends
-- `src/` — reusable python codes
 - `docs/` — published reports
