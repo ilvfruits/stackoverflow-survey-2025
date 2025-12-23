@@ -65,11 +65,11 @@ Why Random Forest?
 
 ### Model performance
 
-- **Mean Absolute Error (MAE):** ~$33,782
-- **R² Score:** ~0.47
+- **Mean Absolute Error (MAE):** $34,984
+- **R² Score:** 0.44
 
 Interpretation:
-- Predictions are often within ~$34k of reported salary
+- Predictions are often within $35k of reported salary
 - Roughly half of salary variance is explained by the model
 
 ---
@@ -79,7 +79,7 @@ Interpretation:
 ### Feature Analysis
 
 ### Salary vs. Experience
-![Salary vs Experience](/docs/assets/images/salary_vs_experience.png)
+![Salary vs Experience]({{site.baseurl}}/docs/assets/images/salary_vs_experience.png)
 
 ### Salary by Role
 ![Salary by Role](/docs/assets/images/salary_by_role.png)
