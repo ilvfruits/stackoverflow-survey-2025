@@ -10,5 +10,5 @@ analysis of the 2025 Stack Overflow Developer Survey.
 
 ### Featured Reports
 
-- **[Predicting Developer Salary Using Survey Data](/2025/12/22/salary-prediction-report/)**
+- **[Predicting Developer Salary Using Survey Data](2025/12/22/salary-prediction-report/)**
 
