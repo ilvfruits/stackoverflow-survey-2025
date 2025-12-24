@@ -101,10 +101,10 @@ We trained a **Random Forest Regressor** using:
 - All languages have outliers in high salary ranges. The Bash/Shell and Assembly have highest outliers than others, possibly due to a demand in specific expertise.
 
 ### Can we train a Random Forest Model to predict salary using selected features?
+![Predicted vs Actual Salary]({{site.baseurl}}/assets/images/predicted_vs_true.png)
 - The predicted value is aligned with true values in low salary range (<400,000).
 - The model underpredicted the high salary range (>=400,000). There could be other factors contribute to the high salary.
-![Predicted vs Actual Salary]({{site.baseurl}}/assets/images/predicted_vs_true.png)
-  
+
 ### Feature Importance
 ![Feature Importance]({{site.baseurl}}/assets/images/feature_importance.png)
 - Country is the strongest factor. It explains about 48% of the model's predictive power.
