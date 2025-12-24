@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Programming Language Trends from the 2025 Stack Overflow Survey"
+title: "Which Programming Languages Command the Highest Salaries?"
 tags: [stackoverflow, python, data-analysis]
 ---
 
