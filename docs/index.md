@@ -10,6 +10,6 @@ This site presents selected findings and reports based on analysis of the 2025 S
 
 ### Featured Reports
 
-- **[Can we predict the salary of a developer?]({{site.baseurl}}/2025/12/22/salary-prediction-report/)**
+- **[Can We Predict the Salary of a Developer?]({{site.baseurl}}/2025/12/22/salary-prediction-report/)**
 - **[Which Programming Languages Command the Highest Salaries?]({{site.baseurl}}/2025/12/22/language-trends/)**
 
