@@ -107,7 +107,7 @@ We trained a **Random Forest Regressor** using:
 - The model underpredicted the high salary range (>=400,000). There could be other factors contribute to the high salary.
 
 #### Feature Importance
-![Feature Importance]({{site.baseurl}}/assets/images/feature_importance.png)
+![Feature Importance]({{site.baseurl}}/assets/images/feature_importance_consolidated.png)
 - Country is the strongest factor. It explains about 48% of the model's predictive power.
 - Years of coding experience is the second strongest factor, explaining about 26% of the model's predictive power.
 - Professional role explains about 13% of the model's predictive power.
