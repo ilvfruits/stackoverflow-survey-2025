@@ -26,13 +26,13 @@ This analysis explores the trends of languages used by developers using self-rep
 - Data type: Self-reported survey responses
 
 #### Select three features that are most relevant to the questions
-- Language
-- Years of Coding Experience
-- Salary
+- Language - aim to understand the language trends
+- Years of Coding Experience - aim to learn which language has been used by most develoopers
+- Salary - aim to learn which language is paid highest
 
 ## Section 3: Data Preparation
-- Select the primary language
-- Save the cleaned data
+- Expand the multiple languages in each row to multiple rows, so all the languages are maintained in the analysis
+- Save the cleaned dataset
 
 ## Section 4: Data Modeling (not applicable)
 
