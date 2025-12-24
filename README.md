@@ -18,5 +18,8 @@ This repository contains:
 - This project is based on data from the 2025 Stack Overflow Developer Survey, which is available by Stack Overflow under the Open Database License (ODbL).
 - Thank Stack Overflow and the global developer community for contributing high-quality, openly accessible survey data.
 - Thank the open-source Python ecosystem, particularly pandas, NumPy, Matplotlib, and scikit-learn, for providing the tools for data cleaning, analysis, visualization, and modeling.
-- Thank the Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Grey</a> on <a href="https://unsplash.com/photos/1-usa-dollar-banknotes-8lnbXtxFGZw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Thank the photos from Unsplash
+-- Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Grey</a> on <a href="https://unsplash.com/photos/1-usa-dollar-banknotes-8lnbXtxFGZw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-- Photo by <a href="https://unsplash.com/@imaginebuddy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Imagine Buddy</a> on <a href="https://unsplash.com/photos/a-person-placing-a-piece-of-wood-into-a-pyramid-vsLbaIdhwaU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-- Photo by <a href="https://unsplash.com/@cdr6934?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chris Ried</a> on <a href="https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - This project was developed as a learning and demonstration exercise and do not represent official conclusions from Stack Overflow.
