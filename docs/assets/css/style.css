@@ -1,9 +1,3 @@
-
----
-
-# Step 8: Simple CSS (`assets/css/style.css`)
-
-```css
 body {
   font-family: system-ui, sans-serif;
   max-width: 900px;
