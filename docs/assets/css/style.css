@@ -48,9 +48,9 @@ code {
 }
 
 .header-image {
-  height: 28px;
+  height: 12px;
   width: auto;
-  max-height: 28px;
+  max-height: 12px;
   object-fit: contain;
 }
 
