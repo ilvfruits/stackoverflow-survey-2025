@@ -102,17 +102,18 @@ We trained a **Random Forest Regressor** using:
 
 ### Can we train a Random Forest Model to predict salary using selected features?
 ![Predicted vs Actual Salary]({{site.baseurl}}/assets/images/predicted_vs_true.png)
+#### Observations
 - The predicted value is aligned with true values in low salary range (<400,000).
 - The model underpredicted the high salary range (>=400,000). There could be other factors contribute to the high salary.
 
-### Feature Importance
+#### Feature Importance
 ![Feature Importance]({{site.baseurl}}/assets/images/feature_importance.png)
 - Country is the strongest factor. It explains about 48% of the model's predictive power.
 - Years of coding experience is the second strongest factor, explaining about 26% of the model's predictive power.
 - Professional role explains about 13% of the model's predictive power.
 - The programming language and education level have small influence, with each one explaining less than 10% of the model's predictive power.
 
-### Model performance
+#### Model performance
 - **Mean Absolute Error (MAE):** ~$38,511
 - **R² Score:** ~0.39
 
