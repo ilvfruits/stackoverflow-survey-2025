@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Predicting Developer Salary Using the 2025 Stack Overflow Survey"
+title: "Can We Predict the Salary of a Developer?"
 tags: [data-analysis, machine-learning, stackoverflow]
 ---
 
